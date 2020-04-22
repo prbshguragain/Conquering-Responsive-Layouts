@@ -68,6 +68,14 @@ h1 {
     color: #FFF;
 }
 
+.middle h2{
+    color: #87629A;
+}
+
+.middle p{
+    color: #3A3A3A;
+}
+
 .hero__text {
     width: 60%;
 }
