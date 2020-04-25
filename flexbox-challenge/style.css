@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    color: #824936;
+}
+
+h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+.container{
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.largebox{
+    min-height: 660px;
+    background-color: #F3EED9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.largebox p{
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #222C2A;
+}
+
+.smallbox{
+    height: 485px;
+    display: flex;
+    align-items: center;
+}
+
+#firstheading{
+    text-align: center;
+    margin-bottom: 5rem;
+    color: #824936;
+}
+
+.smallbox_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.smallbox .container .smallbox_content p{
+    color: #222C2A;
+}
+
+.spacecenter{
+    width: 47%;
+}
+
+.extracntr{
+    background-color: #222C2A;
+}
+
+.displayinfo{
+    display: flex;
+    text-align: left;
+}
+
+.smallbox .container .text h3{
+    text-align: left;
+    color: #fff;
+}
+
+.text{
+    color: #fff;
+}
+
+.mediumbox{
+    height: 528px;
+    background-color: #824936;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headingmargin{
+    margin-bottom: 2rem;
+}
