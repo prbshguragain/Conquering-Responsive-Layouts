@@ -63,11 +63,20 @@ header {
     padding: .5em 0;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
 .nav__list {
     display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.nav__item {
+    font-size: 16px;
 }
 
 .nav__item + .nav__item {
@@ -125,4 +134,28 @@ header {
     text-align: center;
     color: #fff;
     background-color: #136c72;
+}
+
+@media (max-width: 600px) {
+    .row{
+        display: block;
+    }
+
+    .hero__text,
+    .hero__img{
+        width: 100%;
+    }
+
+    .hero__img{
+        margin-top: 20px;
+    }
+
+    .primary-content,
+    .sidebar{
+        width: 100%;
+    }
+
+    .nav__list{
+        display: none;
+    }
 }
